@@ -123,7 +123,7 @@ vim.g.dotnet_build_project = function()
   print("Cmd to execute: " .. cmd)
   local f = os.execute(cmd)
   if f == 0 then
-    print("\nBuild: ✔️ ")
+    print("\nBuild: ✅ ")
   else
     print("\nBuild: ❌ (code: " .. f .. ")")
   end
