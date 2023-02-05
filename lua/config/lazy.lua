@@ -104,7 +104,6 @@ dap.configurations.javascript = {
 }
 
 -- Dotnet
-
 dap.adapters.coreclr = {
   type = "executable",
   command = "netcoredbg",
