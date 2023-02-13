@@ -52,6 +52,10 @@ vim.keymap.set("n", "<leader>ds", ":Telescope dap frames<CR>")
 vim.keymap.set("n", "<leader>dc", ":Telescope dap commands<CR>")
 vim.keymap.set("n", "<leader>db", ":Telescope dap list_breakpoints<CR>")
 
+-- DocsViewToggle Keubinds
+vim.keymap.set("n", "<leader>ee", ":DocsViewToggle<CR>")
+vim.keymap.set("n", "<leader>er", ":DocsViewUpdate<CR>")
+
 -- Whichkey mappings
 -- local M = {}
 --
